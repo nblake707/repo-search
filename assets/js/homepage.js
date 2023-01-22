@@ -4,7 +4,7 @@ var repoContainerEl = document.querySelector("#repos-container");
 var repoSearchTerm = document.querySelector("#repo-search-term");
 
 var formSubmitHandler = function (event) {
-  // stops the browser from performing the defalult action the event wants it to do.
+  // stops the browser from performing the default action the event wants it to do.
   // prevents the browser from sending the form's input data to a URL -> we'll handle what happens with the form input data ourselves
   event.preventDefault();
 
